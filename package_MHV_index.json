@@ -1,0 +1,43 @@
+{
+  "packages": [
+    {
+      "name": "Alif-Innovations",
+      "maintainer": "Kashif Chaudhry",
+      "websiteURL": "www.fb.com/kashi549",
+      "email": "kashi549@gmail.com",
+      "help": {
+        "online": "www.fb.com/kashi549"
+      },
+      "platforms": [
+        {
+          "name": "MHV AVR Board",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "www.fb.com/kashi549"
+          },
+          "url": "https://github.com/Seeed-Studio/Seeeduino-Boards/blob/master/download_package/seeeduino-v1.0.0.zip?raw=true",
+          "archiveFileName": "seeeduino-v1.0.0.zip",
+          "checksum": "SHA-256:db124e76b9cb9e788fa21c78d66e868472a2ec84a45ec25c92237a22b07a2b48",
+          "size": "1899",
+          "boards": [
+              	{"name": "MHV Board R7"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
